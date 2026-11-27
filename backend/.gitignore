@@ -1,0 +1,22 @@
+# Secrets & local env (Spec 8.1: never commit .env)
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local databases & evaluation output
+*.db
+reports/
+*.md
+!README.md
+!docs/*.md
+*.txt
+!requirements.txt
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
